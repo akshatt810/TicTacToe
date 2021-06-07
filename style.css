@@ -1,0 +1,82 @@
+*{
+    margin:0px;
+    padding:10px ;
+    box-sizing: border-box;
+   /*background-color: #707070;*/
+}
+body{
+    font-family: 'Caveat', cursive;
+    font-family: 'Permanent Marker', cursive;
+    background-image:url("4.jpg");
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #707070
+}
+h1{
+    
+    font-weight: 1900;
+    font-size: 48px;
+}
+h2{
+   
+    font-weight: 1900;
+    font-size: 36px;
+}
+section {
+    text-align: center;
+    width: 940px;
+    background-color: : #ffff;
+    box-shadow: 0 0 50px 0  rgba(0, 2, 0, 2);
+
+    min-height: 350px;
+    padding: 80px 90px;
+    border-radius: 5%;
+    background-color: #dddd;
+}
+.game--title{
+    border-bottom: 1px solid #464646;
+    color: #464646;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 36px;
+    background-color: #707070;
+    color: #ffff;
+    border-radius: 6px;
+    padding: 5px 10px;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+    /*grid-gap: 1%;
+*/    grid-gap: solid black;
+}
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px #333333;
+    border: 1px solid #333333;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
+.game--status{
+    padding-bottom: 6%;
+     text-decoration: underline
+
+}
+button{
+    display: inline-block;
+    border-radius: 8px
+    font-size:36px;
+    width: 25%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
