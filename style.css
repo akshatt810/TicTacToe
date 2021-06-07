@@ -74,7 +74,7 @@ section {
 button{
     display: inline-block;
     border-radius: 8px
-    font-size:36px;
+    font-size: 36px;
     width: 25%;
     transition: all 0.5s;
     cursor: pointer;
