@@ -6,8 +6,8 @@
 }
 body{
     /*font-family: 'Caveat', cursive;*/
-   /* font-family: 'Permanent Marker', cursive;
-    background-image:url("4.jpg"); */
+    font-family: 'Permanent Marker', cursive;
+    /*background-image:url("4.jpg"); */
     display:flex;
     justify-content: center;
     align-items: center;
